@@ -1,21 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/id_password"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="@dimens/dim_all"
+    android:layout_margin="@dimen/dim_all"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/dim_title"
+        android:layout_marginTop="@dimen/dim_top"
+        android:gravity="center"
+        android:text="@string/connection"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/txtLogin"
+        android:hint="@string/login"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </EditText>
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/txtPassword"
+        android:hint="@string/password"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </EditText>
+
+    <Button
+        android:layout_marginRight="@dimen/dim_right"
+        android:layout_marginLeft="@dimen/dim_left"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorBluePrimary"
+        android:id="@+id/btnConnect"
+        android:text="@string/connect"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+    </Button>
+
+    <Button
+        android:layout_marginRight="@dimen/dim_right"
+        android:layout_marginLeft="@dimen/dim_left"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorBrown"
+        android:id="@+id/btnSign_Up"
+        android:text="@string/sign_up"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="L'excellence ma Constance ,Ethique ma vertu"
+        android:layout_marginTop="@dimen/dim_title"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        >
+    </TextView>
+
+
+</LinearLayout>
