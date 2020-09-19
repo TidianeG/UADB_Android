@@ -5,16 +5,28 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_presentation"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/presentation" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_formation"
+            android:icon="@drawable/ic_baseline_formation_24"
+            android:title="@string/formation" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_mark"
+            android:icon="@drawable/ic_baseline_collections_bookmark_24"
+            android:title="@string/mark" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_university"
+            android:icon="@drawable/ic_baseline_university_24"
+            android:title="@string/university" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="@string/help" />
+
     </group>
 </menu>

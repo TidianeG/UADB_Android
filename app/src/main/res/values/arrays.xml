@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_formation">
+        <item>Software Development</item>
+        <item>Networks Telecoms</item>
+        <item>Accounting</item>
+        <item>Law</item>
+        <item>Medicine</item>
+        <item>PC</item>
+        <item>Maths</item>
+    </string-array>
+
+    <string-array name="tab_details">
+        <item>Java, JEE, Android, UML, Oracle, C, Php, JS, Mysql. Dev Web, Dev Backend, Dev Mobile, DBA</item>
+        <item>Linux, Admin Windows, Security, Networks Services, VoIp, Android, Java. Admin Sys, Admin Network, Dev Mobile, Expert Security</item>
+        <item>Accounting</item>
+        <item>Law</item>
+        <item>Medicine</item>
+        <item>PC</item>
+        <item>Maths</item>
+    </string-array>
+
+</resources>

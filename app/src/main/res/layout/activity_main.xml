@@ -9,6 +9,7 @@
     android:layout_margin="@dimen/dim_all"
     tools:context=".MainActivity">
 
+
     <TextView
         android:textStyle="bold"
         android:textSize="@dimen/dim_title"
@@ -72,11 +73,12 @@
 
     </Button>
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="L'excellence ma Constance ,Ethique ma vertu"
         android:layout_marginTop="@dimen/dim_title"
-        android:gravity="center"
+        android:layout_gravity="right"
+
+        android:text="@string/navigation_drawer_close"
         android:textStyle="bold|italic"
         >
     </TextView>
