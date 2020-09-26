@@ -18,7 +18,7 @@
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
     <string name="degrees">Degrees</string>
-    <string name="O_level">O Level</string>
+    <string name="o_level">O Level</string>
     <string name="bachelor">Bachelor</string>
     <string name="master">Master</string>
     <string name="save">Save</string>
@@ -47,6 +47,7 @@
 
     Depuis 2009, le CUR de Bambey a été transformé en université de plein exercice, suite à la promulgation du décret 2009-1221, portant « création, organisation et fonctionnement de l\'Université de Bambey ».
 </string>
+    <string name="title_activity_university">Map</string>
 
 
 </resources>

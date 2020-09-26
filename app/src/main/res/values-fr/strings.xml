@@ -17,7 +17,7 @@
     <string name="first_name">Prénom</string>
     <string name="last_name">Nom</string>
     <string name="degrees">Diplomes</string>
-    <string name="O_level">Bac</string>
+    <string name="o_level">Bac</string>
     <string name="bachelor">Licence</string>
     <string name="master">Master</string>
     <string name="save">Enregistrer</string>
